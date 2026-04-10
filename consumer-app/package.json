@@ -29,6 +29,9 @@
     "start": "vite",
     "test": "vite build --mode development && ember test --path dist"
   },
+  "dependencies": {
+    "my-library": "workspace:*"
+  },
   "devDependencies": {
     "@babel/core": "^7.29.0",
     "@babel/eslint-parser": "^7.28.6",
